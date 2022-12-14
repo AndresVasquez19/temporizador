@@ -2,7 +2,7 @@ const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
 $seconds = document.getElementById('seconds'),
-$finalMessage = document.querySelector('.final-sms');
+$finalMessage = document.querySelector('.final-sms'); //seleccion del elemento del documento ne este caso el ultimo
 
 //Fecha a futuro
 const countdownDate = new Date('12 14, 2022 19:28:00').getTime();
